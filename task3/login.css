@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    height: 65px;
+    width: 65px;
+}
+
+.image-side{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
+}
+.explore{
+    width: max-content;
+    font-size: 50px;
+    line-height: 58px;
+    margin-bottom: -22px;
+}
+.you-love{
+    color: #4545ef;
+}
+
+.main-img{
+    width: 68%;
+  
+}
+.left-section{
+    width: 50%;
+}
+
+/* right-section style */
+
+.right-section{
+    width: 50%;
+    border-left: 1px solid grey;
+    padding-top: 70px;
+    padding-left: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-heading{
+    font-size: 18px;
+    align-self: flex-start;
+    padding-left: 75px;
+    
+}
+
+
+
+input{
+    padding: 15px;
+    border-radius: 10px;
+    border:1px solid gray ;
+    width: 480px;
+}
+input:hover{
+    border: 2px solid black;
+}
+
+.login-button{
+    width: 480px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #4545ef;
+    border: 0;
+    color: white;
+    font-size: 17px;
+}
+.forget{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 10px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.forget:hover{ 
+    width: 480px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ededf0;
+    border: 0;
+    font-size: 17px;
+
+}
+.create-new-account{
+    width: 480px;
+    padding: 10px ;
+    border-radius: 20px;
+    border: 1px solid blue ;
+    color: blue;
+    background-color: white;
+    margin-top: 40px;
+    
+}
